@@ -227,7 +227,7 @@ def build_pdf(filename="Gen_AI_Content_Transformation_Project_Report.pdf"):
     # Supervised By / Submitted By Table matching sample layout
     sup_sub_data = [
         [
-            Paragraph("<b>Supervised By:</b><br/>Prof. Harshita Khangrot Mam<br/>Assistant Professor", ParagraphStyle('LeftSup', parent=cover_subtitle_style, alignment=0)),
+            Paragraph("<b>Supervised By:</b><br/>Prof. Harshita Khangarot<br/>Assistant Professor", ParagraphStyle('LeftSup', parent=cover_subtitle_style, alignment=0)),
             Paragraph("<b>Submitted By:</b><br/>Meghal Limba<br/>Roll No: 23EJICS087", ParagraphStyle('RightSub', parent=cover_subtitle_style, alignment=2))
         ]
     ]
@@ -261,7 +261,7 @@ def build_pdf(filename="Gen_AI_Content_Transformation_Project_Report.pdf"):
     cert_table_data = [
         [
             Paragraph("<b>Date:</b> 25-09-2026<br/><br/><b>Place:</b> Jodhpur", ParagraphStyle('CertLeft', parent=body_style, alignment=0)),
-            Paragraph("<b>Supervisor’s Name:</b><br/>Prof. Harshita Khangrot Mam<br/>Assistant Professor", ParagraphStyle('CertRight', parent=body_style, alignment=2))
+            Paragraph("<b>Supervisor’s Name:</b><br/>Prof. Harshita Khangarot<br/>Assistant Professor", ParagraphStyle('CertRight', parent=body_style, alignment=2))
         ]
     ]
     t_cert = Table(cert_table_data, colWidths=[3.1 * inch, 3.1 * inch])
@@ -281,7 +281,7 @@ def build_pdf(filename="Gen_AI_Content_Transformation_Project_Report.pdf"):
         "who have been a part of this remarkable journey and helped us in one way or the other."
     )
     ack_p2 = (
-        "An acknowledgment is extended by my guide <b>Prof. Harshita Khangrot Mam</b> for her remarkable contributions "
+        "An acknowledgment is extended by my guide <b>Prof. Harshita Khangarot</b> for her remarkable contributions "
         "to the field of Computer Science & Artificial Intelligence. Her expertise and dedication to excellence have played a crucial role in "
         "achieving our goals. Their experience and guidance in the subject matter greatly contributed to the depth and quality of the literature review."
     )

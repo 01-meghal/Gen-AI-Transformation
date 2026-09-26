@@ -365,7 +365,7 @@ Key Highlights:
 2. Strict Guardrail Validation: Fact Grounding (98.4%), PII Redaction, Tone Alignment
 3. Full Traceability & Versioning for Academic & Commercial Compliance.
 
-Submitted to: Prof. Harshita Khangrot Mam | CSE Dept, JIET Jodhpur"""
+Submitted to: Prof. Harshita Khangarot | CSE Dept, JIET Jodhpur"""
 ax.text(0.7, 3.8, sample_res, ha='left', va='top', fontsize=8, color='#1e293b', family='monospace')
 
 plt.title("Figure 8.3: Result Output – Displays System Transformation Predictions/Results", fontsize=10, fontweight='bold', pad=10, color='#0f172a')
