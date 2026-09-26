@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd gen_ai_content_transformation_dev_pack/frontend && npm install && npm run build",
+  "outputDirectory": "gen_ai_content_transformation_dev_pack/frontend/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
