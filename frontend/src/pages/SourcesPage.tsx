@@ -42,6 +42,7 @@ export const SourcesPage: React.FC<SourcesPageProps> = ({ onNavigate, initialSou
 
   useEffect(() => {
     loadSources();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSelectSource = async (src: any) => {

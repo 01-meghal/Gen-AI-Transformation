@@ -62,6 +62,7 @@ export const OutputWorkspacePage: React.FC<OutputWorkspacePageProps> = ({ onNavi
     if (outputId) {
       loadOutputData();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [outputId]);
 
   const handleSaveUserEdit = async () => {

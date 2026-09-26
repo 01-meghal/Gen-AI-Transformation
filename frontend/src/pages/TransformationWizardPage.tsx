@@ -22,7 +22,7 @@ export const TransformationWizardPage: React.FC<TransformationWizardPageProps> =
   const [tone, setTone] = useState('professional');
   const [detailLevel, setDetailLevel] = useState('medium');
   const [objective, setObjective] = useState('inform');
-  const [contentStyle, setContentStyle] = useState('bullet_points');
+  const [contentStyle] = useState('bullet_points');
   const [selectedBrandId, setSelectedBrandId] = useState<number | ''>('');
   const [customInstruction, setCustomInstruction] = useState('');
   
@@ -45,6 +45,7 @@ export const TransformationWizardPage: React.FC<TransformationWizardPageProps> =
       }
     }
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialSourceId]);
 
   const targetOptions = [
